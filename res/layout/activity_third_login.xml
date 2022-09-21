@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="login"
         android:textSize="40sp"
         android:textColor="#ffff"
         android:layout_above="@id/btx_layout"/>
