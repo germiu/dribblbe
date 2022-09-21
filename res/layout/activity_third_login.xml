@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ladyb"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="40sp"
+        android:textColor="#ffff"
+        android:layout_above="@id/btx_layout"/>
+
+    <RelativeLayout
+        android:id="@+id/btx_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_centerVertical="true"
+        android:paddingLeft="20dp"
+        android:paddingTop="50dp"
+        android:paddingRight="20dp">
+
+
+
+        <EditText
+            android:id="@+id/ed3_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password" />
+
+
+        <Button
+            android:id="@+id/bt_agreecon"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/ed3_text"
+            android:text="Continue"
+            android:background="#068f1a"/>
+        <TextView
+            android:id="@+id/tx_agree"
+            android:layout_below="@id/bt_agreecon"
+            android:layout_marginVertical="50sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#ffff"
+            android:text="Forget your password?"/>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
