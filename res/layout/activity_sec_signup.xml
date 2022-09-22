@@ -53,7 +53,8 @@
             android:layout_height="50dp"
             android:layout_below="@id/ed3_text"
             android:text="Agree and Continue"
-            android:background="#068f1a" />
+            android:background="#068f1a"
+            android:backgroundTint="#1C5324"/>
         <TextView
             android:id="@+id/tx_agree"
             android:layout_below="@id/bt_agreecon"

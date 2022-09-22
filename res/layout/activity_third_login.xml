@@ -12,7 +12,8 @@
         android:text="login"
         android:textSize="40sp"
         android:textColor="#ffff"
-        android:layout_above="@id/btx_layout"/>
+        android:layout_above="@id/btx_layout"
+        />
 
     <RelativeLayout
         android:id="@+id/btx_layout"
